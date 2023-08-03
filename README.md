@@ -16,6 +16,13 @@ A. Nginx method
 
 reference: https://medium.com/zrealm-ios-dev/universal-links-%E6%96%B0%E9%AE%AE%E4%BA%8B-12c5026da33d
 
+B. Express method
+1. cd expressServer
+2. run $ node index.js
+3. run $ ngrok http 80
+
+reference: https://www.bam.tech/en/article/test-your-universal-links-locally-ios
+
 ## IOS
 
 1. Add the tunneled url to associated domain in xcode
