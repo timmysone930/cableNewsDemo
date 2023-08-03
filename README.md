@@ -4,14 +4,17 @@ This is a demo project for universal link and deep link working in parallel
 
 ## Server
 
+A. Nginx method
 1. Set up a dummy server with nginx
-
-   1. update nginx.conf for the root folder for the nginx server (located at line 44) to the location of the `dummyServer` folder of this repo
+   1. brew install nginx (if the computer did not installed nginx before)
+   2. update nginx.conf for the root folder for the nginx server (located at line 44) to the location of the `dummyServer` folder of this repo
       - the nginx.conf file location can be found by running $ nginx -t
-   2. run $ nginx to fire up the dummy server
+   3. run $ nginx to fire up the dummy server
 
 2. Use Ngrok to tunnel the dummy server
    1. run $ ngrok http 3000 // or what port the dummy server is listening on
+
+reference: https://medium.com/zrealm-ios-dev/universal-links-%E6%96%B0%E9%AE%AE%E4%BA%8B-12c5026da33d
 
 ## IOS
 
